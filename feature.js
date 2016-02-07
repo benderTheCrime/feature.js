@@ -213,6 +213,6 @@
 
   };
 
-  module.exports = new Feature();
+  module.exports = Feature;
 
 }(window, document));
