@@ -213,9 +213,6 @@
 
   };
 
-  /**
-   * Expose a public-facing API
-   */
-  window.feature = Feature;
+  module.exports = new Feature();
 
 }(window, document));
