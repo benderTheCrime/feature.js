@@ -198,18 +198,7 @@
     sizes : ("sizes" in util.create("img")),
 
     // Test if Picture element is supported
-    pictureElement : ("HTMLPictureElement" in window),
-
-    // Run all the tests and add supported classes
-    testAll : function() {
-      var classes = " js";
-      for (var test in this) {
-        if (test !== "testAll" && test !== "constructor" && this[test]) {
-          classes += " " + test;
-        }
-      }
-      docEl.className += classes.toLowerCase();
-    }
+    pictureElement : ("HTMLPictureElement" in window)
 
   };
 
